@@ -1,0 +1,22 @@
+header .text {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+header.figure {
+  width: 1400px;
+  height: 782px;
+}
+
+.image-hero-header {
+  display: inline-block;
+  position: relative;
+  z-index: -1;
+}
+
+.nav-header,
+.icon-cloud-header,
+.nav-bar {
+  position: absolute;
+}
